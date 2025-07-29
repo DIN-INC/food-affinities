@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>food affinities</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+     <nav class="side-nav">
+        <ul>
+          </li>
+          <li onclick=hideSidebar()><img src="close.png" alt=""></li>
+        </ul>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="catering.html">Catering</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+          
+        </ul>
+      </nav>
+      <nav class="main-nav">
+        <ul class="logo-container">
+          <li class="logo">
+            <img
+              src="/images/food affinities logo.png"
+              alt="Food Affinities Logo"
+            />
+          </li>
+          <li><h1>Food affinities</h1></li>
+        </ul>
+        <ul>
+          <li class="hideonmobile"><a href="index.html">Home</a></li>
+          <li class="hideonmobile"><a href="menu.html">Menu</a></li>
+          <li class="hideonmobile"><a href="catering.html">Catering</a></li>
+          <li class="hideonmobile"><a href="contact.html">Contact us</a></li>
+          <li class="menu-button" onclick=showSidebar()><a href="#"></a><img src="menu.png" alt=""></li>
+        </ul>
+      </nav>
+    </section>
+    <main>
+      <section>
+        <div class="tagline">exploring culinary <span>perfection.</span></div>
+        <p class="sub-tagline">
+          "crafting bold flavors from lagos to your doorstep"
+        </p>
+      </section>
+      <div class="offer-header">Chef's pick</div>
+      <section class="offer">
+        <div class="offer-item">
+          <img
+            src="/images/jollof.jpg" alt="Chef's Pick Dish"/>
+          <div class="tags-section">
+            <div class="tags spicy"> spicy</div>
+          </div>
+          <div class="item-name-section">
+            
+            <div class="item-name">Flame jollof</div>
+            <div class="item-price"></div>
+            
+          </div>
+        </div>
+        <div class="offer-item-description">
+          <strong>Flame Jollof</strong>— Enjoy a dish prepared with passion
+          that's sure to ingnite a flame of desire in your heart
+        </div>
+      </section>
+      <section>
+        <div class="sub-header">Our Mission.</div>
+        <div class="sub-header-description">
+          Delivering the best culinary experiences with a focus on quality,
+          flavor, and customer satisfaction. We aim to bring the essence of
+          Lagos cuisine to your table, wherever you are.
+        </div>
+      </section>
+      <section>
+        <div class="sub-header">Feeling hungry?</div>
+        <div class="sub-header-description">
+          Explore our menu and discover a variety of dishes that will tantalize
+          your taste buds. From traditional favorites to modern twists, we have
+          it all.
+          <button class="button">
+          <a href="menu.html">Explore Menu</a>
+        </button>
+        <button class="button">
+          <a href="catering.html">Book Catering</a>
+          </button>
+        </div>
+        
+       
+      </section>
+      <section>
+        <div class="sub-header">Follow us on Social Media</div>
+        <div class="sub-header-description">
+          Stay connected with us on social media for the latest updates, special
+          offers, and behind-the-scenes glimpses of our culinary adventures.
+        </div>
+      </section>
+      <section> 
+        <div class="sub-header">Contact Us</div>
+        <div class="sub-header-description">
+          Have questions or feedback? We'd love to hear from you! Reach out to
+          us through our contact page.
+          <button class="button">
+           <a href="contact.html">Contact Us</a>
+          </button>
+        </div>
+      
+    </main>
+    <footer>
+      
+      <div class="footer-content">
+        <ul class="logo-container">
+          <li class="logo">
+            <img
+              src="/images/food affinities logo.png"
+              alt="Food Affinities Logo"
+            />
+          </li>
+          <li><h1>Food affinities</h1></li>
+        </ul>
+        <p>&copy; 2025 Food Affinities. All rights reserved.</p>
+        <p>
+          Follow us on
+          <a href="#" target="_blank"
+            >Instagram</a
+          >
+          and
+          <a href="#" target="_blank"
+            >Facebook</a
+          > for the latest updates and offers.
+        </p>
+      </div>
+    </footer>
+    <script>
+      function showSidebar() {
+        const sideNav = document.querySelector('.side-nav');
+        sideNav.style.display = 'flex'
+      }
+      function hideSidebar() {
+        const sideNav = document.querySelector('.side-nav');
+        sideNav.style.display = 'none';
+      }
+    </script>
+  </body>
+</html>
